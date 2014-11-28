@@ -1,0 +1,12 @@
+<template name="postsList">
+  <div class="posts">
+    {{#each posts}}
+ <div class="post">
+    <div class="post-content">
+      <h3><a href="{{url}}">{{title}}</a><span>{{domain}}</span></h3>
+    </div>
+  </div>
+    {{/each}}
+  </div>
+</template>
+
